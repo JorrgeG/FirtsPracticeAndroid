@@ -12,5 +12,6 @@
     <color name="green">#26FF00</color>
     <color name="blue">#E1005EFF</color>
     <color name="orange">#FF9900</color>
-    <color name="Background">#E121A6FF</color>
+    <color name="Background">#E14FAEED</color>
+    <color name="button_color">#68B36D</color>
 </resources>

@@ -19,28 +19,34 @@
         android:textSize="30sp"/>
 
     <Button
+        android:id="@+id/btnMenuFruits"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
         android:layout_marginHorizontal="20dp"
-        android:text="@string/fruits" />
+        android:layout_marginTop="100dp"
+        android:text="@string/fruits"
+        android:backgroundTint="@color/button_color"/>
 
     <Button
+        android:id="@+id/btnMenuColors"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginHorizontal="20dp"
-        android:text="@string/colors" />
+        android:text="@string/colors"
+        android:backgroundTint="@color/button_color"/>
 
     <Button
+        android:id="@+id/btnMenuAnimals"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginHorizontal="20dp"
-        android:text="@string/animals" />
+        android:text="@string/animals"
+        android:backgroundTint="@color/button_color"/>
 
 
 </LinearLayout>
