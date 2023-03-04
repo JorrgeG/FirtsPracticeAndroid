@@ -6,15 +6,15 @@ import android.content.Context;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class MenuActivity extends AppCompatActivity implements IButtonOnClick {
+public class MenuActivity extends AppCompatActivity {
 
     Button btnFruits, btnColors, btnAnimals;
 
-    //private IButtonOnClick _iBtn;
+    ButtonOnClick _buttonOnClick;
 
-    //public MenuActivity(IButtonOnClick btn){
-      //  this._iBtn = btn;
-    //}
+    public MenuActivity(){
+        _buttonOnClick = new ButtonOnClick();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,18 +25,12 @@ public class MenuActivity extends AppCompatActivity implements IButtonOnClick {
         btnColors = findViewById(R.id.btnMenuColors);
         btnFruits = findViewById(R.id.btnMenuFruits);
 
-        ButtonOnClick buttonOnClick = new ButtonOnClick();
 
-        buttonOnClick.Click(btnAnimals, MenuActivity.this, AnimalsActivity.class);
-        buttonOnClick.Click(btnColors, MenuActivity.this, ColorsActivity.class);
-        buttonOnClick.Click(btnFruits, MenuActivity.this, FruitActivity.class);
+        _buttonOnClick.ClickIntent(btnAnimals, MenuActivity.this, AnimalsActivity.class);
+        _buttonOnClick.ClickIntent(btnColors, MenuActivity.this, ColorsActivity.class);
+        _buttonOnClick.ClickIntent(btnFruits, MenuActivity.this, FruitActivity.class);
 
         //this._iBtn.Click(btnAnimals, MenuActivity.this, AnimalsActivity.class);
-
-    }
-
-    @Override
-    public void Click(Button btn, Context context, Class<?> clase) {
 
     }
 }

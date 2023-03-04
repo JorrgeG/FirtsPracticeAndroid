@@ -25,14 +25,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnCatAnimals"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/cat_animal"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtCatAnimals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cat_animals"
+            android:text="@string/cat_animals_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -45,14 +47,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnSnakeAnimals"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:src="@drawable/snake_animal"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtSnakeAnimals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/snake_animals"
+            android:text="@string/snake_animals_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -65,14 +69,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnDogAnimals"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/dog_animal"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtDogAnimals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dog_animals"
+            android:text="@string/dog_animals_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>

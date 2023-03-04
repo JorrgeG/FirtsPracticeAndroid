@@ -25,14 +25,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnRedColors"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/red_color"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtRedColors"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/red_colors"
+            android:text="@string/red_colors_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -45,14 +47,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnOrangeColors"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:src="@drawable/orange_color"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtOrangeColors"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/orange_colors"
+            android:text="@string/orange_colors_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -65,14 +69,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnBlueColors"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/blue_color"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtBlueColors"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/blue_colors"
+            android:text="@string/blue_colors_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>

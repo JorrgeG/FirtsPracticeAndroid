@@ -25,14 +25,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnAppleFruits"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/apple_fruit"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtAppleFruits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/apple_fruits"
+            android:text="@string/apple_fruits_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -45,14 +47,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnCoconutFruits"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:src="@drawable/coconut_fruit"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtCoconutFruits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/coconut"
+            android:text="@string/coconut_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -65,14 +69,16 @@
         android:layout_margin="30dp">
 
         <ImageView
+            android:id="@+id/btnBananaFruits"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/banana_fruit"
             android:layout_marginRight="20dp"></ImageView>
         <TextView
+            android:id="@+id/txtBananaFruits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/banana_fruits"
+            android:text="@string/banana_fruits_es"
             android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textStyle="bold"/>

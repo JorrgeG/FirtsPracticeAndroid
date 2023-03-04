@@ -10,16 +10,25 @@
     <string name="red_colors">Red</string>
     <string name="blue_colors">Blue</string>
     <string name="orange_colors">Orange</string>
+    <string name="red_colors_es">Rojo</string>
+    <string name="blue_colors_es">Azul</string>
+    <string name="orange_colors_es">Naranja</string>
 
     <!-- Frutas -->
     <string name="fruits">Frutas</string>
     <string name="apple_fruits">Apple</string>
     <string name="banana_fruits">Banana</string>
     <string name="coconut">Coconut</string>
+    <string name="apple_fruits_es">Manzana</string>
+    <string name="banana_fruits_es">Banano</string>
+    <string name="coconut_es">Coco</string>
 
     <!-- Animales -->
     <string name="animals">Animales</string>
     <string name="cat_animals">Cat</string>
     <string name="dog_animals">Dog</string>
     <string name="snake_animals">Snake</string>
+    <string name="cat_animals_es">Gato</string>
+    <string name="dog_animals_es">Perro</string>
+    <string name="snake_animals_es">Serpiente</string>
 </resources>
