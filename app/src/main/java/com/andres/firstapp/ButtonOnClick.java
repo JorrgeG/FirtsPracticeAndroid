@@ -2,6 +2,7 @@ package com.andres.firstapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,12 +25,13 @@ public class ButtonOnClick implements IButtonOnClick {
     }
 
     @Override
-    public void ClickSetText(ImageView btnImage, TextView txtView, String newText) {
+    public void ClickSetActions(ImageView btnImage, TextView txtView, String newText, MediaPlayer sound) {
         _btnImage = btnImage;
         _btnImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 txtView.setText(newText);
+                sound.start();
             }
         });
     }
